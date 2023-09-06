@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+  }
+  section{
+    display: block;
+   margin-right: auto;
+   margin: auto;
+  }
+  .container{
+    border: 2px solid black;
+    width: 60%;
+    display: flex;
+    padding: 5px;
+  }
+  .firstpart{
+    width:40%;
+    height: 900px;
+    background-color: rgb(139, 247, 17);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+  }
+  .profil{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .secondpart{
+    width: 65%;
+    flex-direction: column;
+    display: flex;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: aquamarine
+  }
+  .div1,.div2,.div3,.div4{
+    width: 100%;
+    height: 25%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+  .div3-child1,.div3-child2{
+   display: inline-block;
+    flex-direction: row;
+    width: 45%;
+    height: 65%;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  h3{
+    margin: 0;
+    padding: 5px;
+  }
+  p{
+    font-size: 20px;
+    padding: 5px;
+  }
+  li{
+    font-size: 20px;
+  }
+  
+  @media all and (min-width: 768px) and (max-width: 1024px) { 
+    .container{
+      width: 100%;
+    }
+    h1{
+      font-size: 40px;
+    }
+  }
+  
+  @media all and (min-width: 480px) and (max-width: 768px) { 
+    .container{
+      width: 100%;
+    }
+    h1{
+      font-size: 30px;
+    }
+    p{
+      font-size: 15px;
+    }
+    h3{
+      font-size: 20px;
+    }
+  }
+  
+  @media all and (max-width: 480px) { 
+    .firstpart{
+      width:30%;
+      height: 800px;
+      background-color: rgb(18, 231, 53);
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 5px;
+    }
+    .container{
+      width: 100%;
+    }
+    h1{
+      font-size: 20px;
+    }
+    .profil{
+      width: 50px;
+      height: 80px;
+    }
+    p{
+      font-size: 10px;
+    }
+    .div3-child1,.div3-child2{
+     margin: 0;
+     padding: 0;
+    }
+    li{
+      font-size: 8px;
+      padding: 2px;
+    }
+    .div1,.div2,.div3,.div4{
+      height: 20%;
+    }
+  }
