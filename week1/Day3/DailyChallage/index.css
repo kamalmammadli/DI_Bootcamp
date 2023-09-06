@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+    justify-content: center ;
+  }
+  .left-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .middle-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px;
+    
+  }
+  .right-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leftside,.middle,.rightside{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 2px;
+  }
+  .middle{
+    margin: 20px;
+  }
+  
