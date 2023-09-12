@@ -1,6 +1,7 @@
  const fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
 //  Remove Banana from the array.//
  fruits.shift(0);
+//  ! shift() parametr qebul etmir
  console.log(fruits);
 // Sort the array in alphabetical order.//
 

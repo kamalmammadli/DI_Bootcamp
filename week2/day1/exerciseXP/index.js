@@ -5,6 +5,7 @@ console.log(favoritefood)
 console.log(favoritemealoftheday)
 
 
+
 console.log(`I eat ${favoritefood} at every ${favoritemealoftheday}`);
 
 
