@@ -49,40 +49,49 @@
 
 // exercise 4
 
-// const building = {
-//     numberOfFloors: 4,
-//     numberOfAptByFloor: {
-//         firstFloor: 3,
-//         secondFloor: 4,
-//         thirdFloor: 9,
-//         fourthFloor: 2,
-//     },
-//     nameOfTenants: ["Sarah", "Dan", "David"],
-//     numberOfRoomsAndRent:  {
-//         sarah: [3, 990],
-//         dan:  [4, 1000],
-//         david: [1, 500],}, }
-  // 2.
-//   console.log(building.numberOfFloors);
+const building = {
+    numberOfFloors: 4,
+    numberOfAptByFloor: {
+        firstFloor: 3,
+        secondFloor: 4,
+        thirdFloor: 9,
+        fourthFloor: 2,
+    },
+    nameOfTenants: ["Sarah", "Dan", "David"],
+    numberOfRoomsAndRent:  {
+        sarah: [3, 990],
+        dan:  [4, 1000],
+        david: [1, 500],}, }
+  2.
+  console.log(building.numberOfFloors);
   
-//   // 3..
-//   console.log(building.numberOfAptByFloor.firstFloor);
-//   console.log(building.numberOfAptByFloor.thirdFloor);
+  // 3..
+  console.log(building.numberOfAptByFloor.firstFloor);
+  console.log(building.numberOfAptByFloor.thirdFloor);
   
-//    4. 
-//   console.log(building.nameOfTenants[1]);
-//   console.log(building.numberOfRoomsAndRent.dan);
+   4. 
+  console.log(building.nameOfTenants[1]);
+  console.log(building.numberOfRoomsAndRent.dan);
   
-//   // 5. 
-//   let sarah = building.numberOfRoomsAndRent.sarah[1];
-//   console.log(sarah);
-//   let david = building.numberOfRoomsAndRent.david[1];
-//   console.log(david);
-//   let dan = building.numberOfRoomsAndRent.dan[1];
+  // 5. 
+  let sarah = building.numberOfRoomsAndRent.sarah[1];
+  console.log(sarah);
+  let david = building.numberOfRoomsAndRent.david[1];
+  console.log(david);
+  let dan = building.numberOfRoomsAndRent.dan[1];
   
-//   if (sarah + david> dan){
-//     building.numberOfRoomsAndRent.dan.splice[1] = 1200;
-//   } console.log(building);
+  if (sarah + david> dan){
+    building.numberOfRoomsAndRent.dan.splice[1] = 1200;
+    console.log(building);
+  } 
+
+  // !!! correct way example
+if (sarah < dan ){
+  building.numberOfRoomsAndRent.dan[1]= 1200
+  console.log(building);
+}
+
+// !!!
 
 // exercise 5
 
@@ -119,3 +128,5 @@
 
 
 // end
+
+// !!! EXERCISE 6 VE 7 YOXDUR 

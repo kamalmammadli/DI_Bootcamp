@@ -52,33 +52,35 @@
 
 //exercise 4
 
-// let stock = {
-//     "banana": 6,
-//     "apple": 0,
-//     "pear": 12,
-//     "orange": 32,
-//     "blueberry": 1
-// }
-// const prices = {
-//     "banana": 4,
-//     "apple": 2,
-//     "pear": 1,
-//     "orange": 1.5,
-//     "blueberry": 10
-// }
-// const shoppingList = ["banana", "orange", "apple"];
-// let fruitPrice = 0;
-// function myBill() {
-//     for (fruit in stock) {
-//         for (myFruit in shoppingList) {
-//             if (fruit == shoppingList[myFruit] && stock[fruit] > 0) {
-//                 fruitPrice += prices[fruit]}}}
-//                 return fruitPrice;
-// }
-// console.log(myBill())
+let stock = {
+    "banana": 6,
+    "apple": 0,
+    "pear": 12,
+    "orange": 32,
+    "blueberry": 1
+}
+const prices = {
+    "banana": 4,
+    "apple": 2,
+    "pear": 1,
+    "orange": 1.5,
+    "blueberry": 10
+}
+const shoppingList = ["banana", "orange", "apple"];
+let fruitPrice = 0;
+function myBill() {
+    for (fruit in stock) {
+        for (myFruit in shoppingList) {
+            if (fruit == shoppingList[myFruit] && stock[fruit] > 0) {
+                fruitPrice += prices[fruit]}}}
+                return fruitPrice;
+}
+console.log(myBill())
 
 // exercise5
 
 // changeEnough(4.25, [25, 20, 5, 0])
 
 // exercise 6
+
+// !!! DERSDE ARDINI TAMAMLA
