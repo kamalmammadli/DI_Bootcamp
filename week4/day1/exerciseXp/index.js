@@ -46,3 +46,20 @@ let winBattle = () => {
      : console.log(`${index+1}${ordinal[0]} choice is ${element}`)
      }
    )
+
+
+
+
+
+
+
+
+
+  //  exercise6
+
+  let bankAmount = 100;
+  const adv = 17/100;
+  const details = ["+200", "-100", "+146", "+167", "-2900"]
+  details.forEach((elem) =>{
+  let total = ((bankAmount + Number(elem) * 17)/100);
+  console.log(total)})
