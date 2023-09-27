@@ -7,10 +7,14 @@
   
 //   const displayGroceries = () => {
 //     groceries.fruits.slice(0, 3).forEach((fruit) => {
+
+// !!! slice() ?
+
 //       console.log(fruit);
 //     });
 //   };
   
+
   
 //   const cloneGroceries = () => {
 

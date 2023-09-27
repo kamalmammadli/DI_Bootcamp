@@ -44,3 +44,5 @@
 
 //     document.body.appendChild(sentenceElement);
 //   })(3, "Kamal", "Baku", "Devloper");
+
+// !!! EXERCISE 4, 5 TAMAMLANMAYIB
