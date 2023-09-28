@@ -45,4 +45,126 @@
 //     document.body.appendChild(sentenceElement);
 //   })(3, "Kamal", "Baku", "Devloper");
 
-// !!! EXERCISE 4, 5 TAMAMLANMAYIB
+
+// exercise 5 
+
+// function makeJuice(size) {
+   
+//     function addIngredients(ingredient1, ingredient2, ingredient3) {
+
+//       const sentence = `The client wants a ${size} juice, containing ${ingredient1}, ${ingredient2}, ${ingredient3}`;
+   
+//       console.log(sentence);
+//     }
+  
+    
+//     addIngredients("apple", "carrot", "ginger");
+//   }
+  
+//   makeJuice("medium");
+  
+// function makeJuice() {
+//     const ingredients = [];
+  
+//     function addIngredients(ingredient1, ingredient2, ingredient3) {
+//       ingredients.push(ingredient1, ingredient2, ingredient3);
+//     }
+  
+//     function displayJuice() {
+//       const juiceDisplay = document.getElementById('juice-display');
+  
+//       const sentence = `The client wants a ${ingredients.length}-ingredient juice, containing ${ingredients.join(', ')}.`;
+  
+//       juiceDisplay.textContent = sentence;
+//     }
+  
+ 
+//     addIngredients('apple', 'orange', 'banana');
+//     addIngredients('strawberry', 'blueberry', 'kiwi');
+  
+    
+//     displayJuice();
+//   }
+  
+
+//   makeJuice();
+
+// exercise 4
+
+(function(username) {
+   
+    console.log("Welcome, " + username + "!");
+  })("John");
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+// exercise 5 
+
+// function makeJuice(size) {
+   
+//     function addIngredients(ingredient1, ingredient2, ingredient3) {
+
+//       const sentence = `The client wants a ${size} juice, containing ${ingredient1}, ${ingredient2}, ${ingredient3}`;
+   
+//       console.log(sentence);
+//     }
+  
+    
+//     addIngredients("apple", "carrot", "ginger");
+//   }
+  
+//   makeJuice("medium");
+  
+// function makeJuice() {
+//     const ingredients = [];
+  
+//     function addIngredients(ingredient1, ingredient2, ingredient3) {
+//       ingredients.push(ingredient1, ingredient2, ingredient3);
+//     }
+  
+//     function displayJuice() {
+//       const juiceDisplay = document.getElementById('juice-display');
+  
+//       const sentence = `The client wants a ${ingredients.length}-ingredient juice, containing ${ingredients.join(', ')}.`;
+  
+//       juiceDisplay.textContent = sentence;
+//     }
+  
+ 
+//     addIngredients('apple', 'orange', 'banana');
+//     addIngredients('strawberry', 'blueberry', 'kiwi');
+  
+    
+//     displayJuice();
+//   }
+  
+
+//   makeJuice();
+
+// exercise 4
+
+(function(username) {
+   
+    console.log("Welcome, " + username + "!");
+  })("John");
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
