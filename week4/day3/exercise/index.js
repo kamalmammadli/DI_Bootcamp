@@ -40,3 +40,5 @@ const students = [{name: "Ray", course: "Computer Science", isPassed: true},
                const passedStudents = students.filter(student => student.isPassedtrue);
 
 console.log(passedStudents);
+
+
