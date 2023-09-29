@@ -41,3 +41,5 @@ const students = [{name: "Ray", course: "Computer Science", isPassed: true},
             //    !!! muqayis etmek lazimdir ==
 
 console.log(passedStudents);
+
+
