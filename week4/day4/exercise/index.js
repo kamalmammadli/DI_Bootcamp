@@ -35,6 +35,8 @@ class Dog {
     }
   };
 
+  // !!! constructor da parent constructor u goturmek lazimdir super() metodundan istifade edib
+
 //   exercise 6
 
 // [2] === [2] 
@@ -64,5 +66,7 @@ class Animal {
     }
   }
   
+// !!! class yaradilarken con structorun olmasi sertdir
+
   const farmerCow = new Mammal("Lily", "cow", "brown and white");
   console.log(farmerCow.sound("moos"))
