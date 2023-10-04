@@ -32,3 +32,6 @@ fetch(apiUrl)
   .catch(error => {
     console.error('Error fetching GIFs:', error);
   });
+
+  // !!! REDO 
+  // !!! course note dan istifade et
