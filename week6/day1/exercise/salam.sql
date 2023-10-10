@@ -44,6 +44,13 @@
 -- INSERT INTO customers (first_name, last_name)
 -- VALUES ('Melanie', 'Johnson');
 
+
+-- !!! bir setrde bir nece row elave etmek ucun
+INSERT INTO customers (first_name, last_name)
+VALUES ('Trevor', 'Green'),('Melanie', 'Johnson');
+
+
+
 SELECT * FROM customers;
 SELECT * FROM items WHERE (price > 80);
 SELECT * FROM items WHERE (price <= 300);
