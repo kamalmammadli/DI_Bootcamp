@@ -44,13 +44,32 @@
 -- INSERT INTO customers (first_name, last_name)
 -- VALUES ('Melanie', 'Johnson');
 
-SELECT * FROM customers;
-SELECT * FROM items WHERE (price > 80);
-SELECT * FROM items WHERE (price <= 300);
-SELECT * FROM customers WHERE last_name LIKE 'Smith';
-SELECT * FROM customers WHERE last_name LIKE 'Jones';
-SELECT * FROM customers WHERE first_name NOT LIKE 'Scott';
+-- SELECT * FROM customers;
+-- SELECT * FROM items WHERE (price > 80);
+-- SELECT * FROM items WHERE (price <= 300);
+-- SELECT * FROM customers WHERE last_name LIKE 'Smith';
+-- SELECT * FROM customers WHERE last_name LIKE 'Jones';
 
+-- SELECT * FROM customers WHERE first_name NOT LIKE 'Scott';
+
+
+
+--DAY 2 EXERCISE1  
+
+
+
+-- SELECT * FROM items;
+-- SELECT * FROM items
+-- ORDER BY price ASC;
+
+-- SELECT * FROM items WHERE price >=80
+-- ORDER BY price DESC;
+
+-- SELECT * FROM customers;
+
+-- SELECT * FROM customers ORDER BY first_name ASC LIMIT 3;
+
+-- SELECT last_name FROM customers ORDER BY last_name DESC;
 
 
 
