@@ -48,9 +48,6 @@
 
 -- SELECT SUBSTRING(first_name, 1, 3) FROM employees;
 
--- !!!
-substring({secilmis soz}, {baslangic indexi}, {bitme sayi ve ya nece herf gortureceyi})
--- !!!
 
 
 -- SELECT CONCAT(first_name, ' ', last_name) FROM employees;
