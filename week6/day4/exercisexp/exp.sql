@@ -28,6 +28,7 @@
 
 
 -- select first_name, last_name, salary from employees order by salary asc;
+-- !!! azalan order DESC
 
 -- select sum(salary) as totalsalary from employees;
 
@@ -46,6 +47,11 @@
 -- SELECT UPPER(first_name) FROM employees;
 
 -- SELECT SUBSTRING(first_name, 1, 3) FROM employees;
+
+-- !!!
+substring({secilmis soz}, {baslangic indexi}, {bitme sayi ve ya nece herf gortureceyi})
+-- !!!
+
 
 -- SELECT CONCAT(first_name, ' ', last_name) FROM employees;
 
@@ -68,6 +74,14 @@
 -- WHERE 
 --     first_name'[0-9]';
 
+-- !!! refex istifadesi zamani
+-- !!! option  2
+    select * from employees where first_name ~ '\d';
+-- ~ for regex
+-- \ escape operator
+-- d regex for number ve ya [0-9]
+ --   !!!
+
 -- select * from employees limit 10;
 
 -- select first_name, last_name, salary from employees
@@ -77,6 +91,9 @@
 -- SELECT *
 -- FROM employees
 -- WHERE first_name LIKE '%c%' AND first_name LIKE '%e%';
+
+-- !!! ilike boyuk kicik herf ucun
+
 -- select * from employees
 
 -- SELECT last_name, job_title, salary
@@ -104,6 +121,8 @@
 
 
 -- select * from employees where UPPER(last_name) in ('JONES','BLAKE','SCOTT','KING','FORD')
+
+
 
 
 
