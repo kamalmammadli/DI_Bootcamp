@@ -7,4 +7,5 @@ function calculateAverageAge(persons) {
   }
   
   // Call the function with the imported array
-  calculateAverageAge(persons);
+  calculateAverageAge(persons); 
+  
