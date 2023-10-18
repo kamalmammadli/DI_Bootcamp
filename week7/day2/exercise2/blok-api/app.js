@@ -31,11 +31,11 @@ app.get('/api/books/:bookId', (req, res) => {
 app.post('/api/books', (req, res) => {
   const { title, author, publishedYear } = req.body;
   const newId = books.length > 0 ? books[books.length - 1].id + 1 : 1;
-  
- 
-const newBook = { id: newId, title, author, publishedYear };
+
+  const newBook = { id: newId, title, author, publishedYear };
   books.push(newBook);
-status(201).json(newBook);
+  status(201).json(newBook);
+  // !!! res.status(201).json(newBook);
 });
 
 const port = 5000;
