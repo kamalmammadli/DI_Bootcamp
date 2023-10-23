@@ -18,12 +18,25 @@ router.post ('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
     const todId = req.params.id;
-    res.send('Update to id');
+    
+   
+    const index =  todos.findIndex((x) => x.id == todId )
+  if (
+    index == -1
+  ){res.status(404).send('Not found');
+}  const newTod = req.body;
+    todos[index] = newTod 
+    res.json(newTod);
 });
 
 router.delete('/:id', (req, res) => {
     const todId = req.params.id;
     res.send('Delete to id');
+    const index = todos.findIndex((x) => x.id == todId)
+    if (
+        index == -1)
+        { res.status(404).send('Not found');}
+
 });
 
 module.exports = router;
