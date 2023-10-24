@@ -19,23 +19,26 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
-  const todId = req.params.id;
-  // !!! duzgun logic de deyil
-  /* 1. gelen id ye esasen arrayde hemin itemin indexini tap finIndex metodu ile
-    2. eger -1 vererse if statement 404 versin
-    3. req bodyden yeni melumatlari gotur
-    4. array[az evvel tapdigin itemin indexi] beraber et yeni melumatlarin oldugu objecte
-    5. body bos gele biler deye if statement 404 versin */
-  res.send('Update to id');
+    const todId = req.params.id;
+    
+   
+    const index =  todos.findIndex((x) => x.id == todId )
+  if (
+    index == -1
+  ){res.status(404).send('Not found');
+}  const newTod = req.body;
+    todos[index] = newTod 
+    res.json(newTod);
 });
 
 router.delete('/:id', (req, res) => {
-  const todId = req.params.id;
-  res.send('Delete to id');
-  // !!! duzgun logic de deyil
-  /* 1. gelen id ye esasen arrayde hemin itemin indexini tap finIndex metodu ile
-  2.  eger -1 vererse if statement 404 versin
-  3. splice metodu ile objecti sil arrayden*/
+    const todId = req.params.id;
+    res.send('Delete to id');
+    const index = todos.findIndex((x) => x.id == todId)
+    if (
+        index == -1)
+        { res.status(404).send('Not found');}
+
 });
 
 module.exports = router;
